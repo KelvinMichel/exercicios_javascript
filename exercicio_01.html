@@ -1,0 +1,28 @@
+<!-- 1 – Calcule a média de diversas notas digitadas pelo usuário. -->
+
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Questao 01</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        nome = prompt("Digite o nome do aluno :");
+        turma = prompt("Digite a turma do aluno :")
+        disciplina = prompt("Disciplina")
+        nota01 = prompt("Digite a nota do primeiro trimestre :")
+        nota02 = prompt("Digite a nota do segundo trimestre :")
+        nota03 = prompt("Digite a nota do terceiro trimestre :")
+
+        media = (nota01 + nota02 + nota03) / 3;
+        if (media >= 6) {
+            document.write("Aluno :" + nome + " /Turma: " + turma + " /Nota Total:" + media + " /Esta Aprovado em:" + disciplina)
+        } else {
+            document.write("Aluno :" + nome + " /Turma: " + turma + " /Nota Total:" + media + " /Esta Reprovado em:" + disciplina)
+        }
+    </script>
+</body>
+
+</html>
